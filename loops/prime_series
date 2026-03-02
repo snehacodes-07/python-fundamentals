@@ -1,0 +1,12 @@
+# PRIME SERIES
+size = int(input("enter limit of the series: "))
+for i in range(2,size+1):
+    is_prime = True
+    for j in range(2,i-1):
+        if i%j == 0:
+            is_prime = False
+            break
+    if is_prime:
+        print(i,end=" ")    
+    
+print("\nexecuted successfully")
