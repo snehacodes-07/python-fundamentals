@@ -6,4 +6,5 @@ while num>0:
     sum += digit
     num = num//10
 print("entered number : ",org)
+
 print("sum of digits: ",sum)
